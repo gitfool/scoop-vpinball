@@ -17,9 +17,9 @@ scoop bucket add vpinball https://github.com/gitfool/scoop-vpinball
 
 * Install tools from this bucket:
 
-```
-# TODO
-```
+| Name | Description | Command |
+| --- | --- | --- |
+| [vpxtool](https://github.com/francisdb/vpxtool) | Terminal based frontend and utilities for Visual Pinball | `scoop install vpinball/vpxtool` |
 
 * Update scoop and tools
 ```powershell
