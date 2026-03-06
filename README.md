@@ -19,16 +19,14 @@ scoop bucket add vpinball https://github.com/gitfool/scoop-vpinball
 
 | Name | Description | Command |
 | --- | --- | --- |
-| [vpxtool](https://github.com/francisdb/vpxtool) | Terminal based frontend and utilities for Visual Pinball | `scoop install vpinball/vpxtool` |
+| [vpinball](https://github.com/vpinball/vpinball) | Visual Pinball BGFX<sup>1</sup> | `scoop install vpinball` |
+| [vpxtool](https://github.com/francisdb/vpxtool) | Terminal based frontend and utilities for Visual Pinball | `scoop install vpxtool` |
+
+<sup>1</sup> [BGFX](https://github.com/dekay/vpinball-wiki/wiki/About-Visual-Pinball#bgfx) x64 release only
+
+## How do I update these tools?
 
 * Update scoop and tools
 ```powershell
 scoop update && scoop update --all && scoop cleanup --all --cache
 ```
-
-## How do I contribute new tools?
-
-To make a new manifest contribution, please read the [Contributing
-Guide](https://github.com/ScoopInstaller/.github/blob/main/.github/CONTRIBUTING.md)
-and [App Manifests](https://github.com/ScoopInstaller/Scoop/wiki/App-Manifests)
-wiki page.
