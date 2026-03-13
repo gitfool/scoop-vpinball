@@ -9,7 +9,7 @@
             "hash": "120e426e5214cdc5726a312a913760a8813c9571d6ae67759989ff6086096caf"
         }
     },
-    "bin": "vpinfe/vpinfe.exe",
+    "bin": "vpinfe/vpinfe.bat",
     "checkver": {
         "github": "https://github.com/superhac/vpinfe"
     },
