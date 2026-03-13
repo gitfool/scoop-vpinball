@@ -22,12 +22,16 @@ scoop bucket add vpinball https://github.com/gitfool/scoop-vpinball
 | Name | Description | Command | Version |
 | --- | --- | --- | --- |
 | [vpinball](https://github.com/vpinball/vpinball) | Visual Pinball BGFX<sup>1</sup> | `scoop install vpinball` | [![Version](https://img.shields.io/scoop/v/vpinball?bucket=https%3A%2F%2Fgithub.com%2Fgitfool%2Fscoop-vpinball&label=&logo=scoop)](bucket/vpinball.json) |
-| [vpinball-nightly](https://nightly.link/vpinball/vpinball/workflows/vpinball/master?preview) | Visual Pinball BGFX<sup>1</sup> nightly<sup>2</sup> | `scoop install vpinball-nightly` | [![Version](https://img.shields.io/scoop/v/vpinball-nightly?bucket=https%3A%2F%2Fgithub.com%2Fgitfool%2Fscoop-vpinball&label=&logo=scoop)](bucket/vpinball-nightly.json) |
+| [vpinball-nightly](https://nightly.link/vpinball/vpinball/workflows/vpinball/master?preview) | Visual Pinball BGFX<sup>1</sup> (nightly<sup>2</sup>) | `scoop install vpinball-nightly` | [![Version](https://img.shields.io/scoop/v/vpinball-nightly?bucket=https%3A%2F%2Fgithub.com%2Fgitfool%2Fscoop-vpinball&label=&logo=scoop)](bucket/vpinball-nightly.json) |
+| [vpinfe](https://github.com/superhac/vpinfe) | A vpinball frontend for Linux, Mac, and Windows | `scoop install vpinfe` | [![Version](https://img.shields.io/scoop/v/vpinfe?bucket=https%3A%2F%2Fgithub.com%2Fgitfool%2Fscoop-vpinball&label=&logo=scoop)](bucket/vpinfe.json) |
+| [vpinfe-slim](https://github.com/superhac/vpinfe) | A vpinball frontend for Linux, Mac, and Windows (slim<sup>3</sup>) | `scoop install vpinfe-slim` | [![Version](https://img.shields.io/scoop/v/vpinfe-slim?bucket=https%3A%2F%2Fgithub.com%2Fgitfool%2Fscoop-vpinball&label=&logo=scoop)](bucket/vpinfe-slim.json) |
 | [vpxtool](https://github.com/francisdb/vpxtool) | Terminal based frontend and utilities for Visual Pinball | `scoop install vpxtool` | [![Version](https://img.shields.io/scoop/v/vpxtool?bucket=https%3A%2F%2Fgithub.com%2Fgitfool%2Fscoop-vpinball&label=&logo=scoop)](bucket/vpxtool.json) |
 
 <sup>1</sup> [BGFX](https://github.com/dekay/vpinball-wiki/wiki/About-Visual-Pinball#bgfx) x64 release only
 
-<sup>2</sup> Requires GitHub login
+<sup>2</sup> Requires [GitHub](https://github.com) login
+
+<sup>3</sup> Requires [Chrome](https://www.google.com/chrome) browser
 
 ## How do I update apps?
 
