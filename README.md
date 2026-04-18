@@ -21,6 +21,7 @@ scoop bucket add vpinball https://github.com/gitfool/scoop-vpinball
 
 | Name | Description | Command | Version |
 | --- | --- | --- | --- |
+| [pinready](https://github.com/Le-Syl21/PinReady) | Cross-platform configurator and launcher for Visual Pinball | `scoop install pinready` | [![Version](https://img.shields.io/scoop/v/pinready?bucket=https%3A%2F%2Fgithub.com%2Fgitfool%2Fscoop-vpinball&label=&logo=scoop)](bucket/pinready.json) |
 | [vpinball](https://github.com/vpinball/vpinball) | Visual Pinball BGFX<sup>1</sup> | `scoop install vpinball` | [![Version](https://img.shields.io/scoop/v/vpinball?bucket=https%3A%2F%2Fgithub.com%2Fgitfool%2Fscoop-vpinball&label=&logo=scoop)](bucket/vpinball.json) |
 | [vpinball-nightly](https://nightly.link/vpinball/vpinball/workflows/vpinball/master?preview) | Visual Pinball BGFX<sup>1</sup> (nightly<sup>3</sup>) | `scoop install vpinball-nightly` | [![Version](https://img.shields.io/scoop/v/vpinball-nightly?bucket=https%3A%2F%2Fgithub.com%2Fgitfool%2Fscoop-vpinball&label=&logo=scoop)](bucket/vpinball-nightly.json) |
 | [vpinball-mingw-nightly](https://nightly.link/vpinball/vpinball/workflows/vpinball/master?preview) | Visual Pinball BGFX<sup>1</sup> MinGW<sup>2</sup> (nightly<sup>3</sup>) | `scoop install vpinball-mingw-nightly` | [![Version](https://img.shields.io/scoop/v/vpinball-mingw-nightly?bucket=https%3A%2F%2Fgithub.com%2Fgitfool%2Fscoop-vpinball&label=&logo=scoop)](bucket/vpinball-mingw-nightly.json) |
