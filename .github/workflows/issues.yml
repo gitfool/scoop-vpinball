@@ -1,14 +1,20 @@
+name: issues
 on:
   issues:
-    types: [opened, labeled]
-name: Issues
+    types: [ opened, labeled ]
+
+permissions:
+  contents: write
+  issues: write
+
 jobs:
-  issueHandler:
-    name: IssueHandler
+  handler:
     runs-on: windows-latest
     steps:
-      - uses: actions/checkout@main
-      - name: IssueHandler
+      - name: Checkout source
+        uses: actions/checkout@main
+
+      - name: Run handler
         uses: ScoopInstaller/GithubActions@main
         if: github.event.action == 'opened' || (github.event.action == 'labeled' && contains(github.event.issue.labels.*.name, 'verify'))
         env:

@@ -1,16 +1,21 @@
+name: excavator
 on:
   workflow_dispatch:
   schedule:
     # run every 12 hours
     - cron: "0 */12 * * *"
-name: Excavator
+
+permissions:
+  contents: write
+
 jobs:
   excavate:
-    name: Excavate
     runs-on: windows-latest
     steps:
-      - uses: actions/checkout@main
-      - name: Excavate
+      - name: Checkout source
+        uses: actions/checkout@main
+
+      - name: Excavate versions
         uses: ScoopInstaller/GithubActions@main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

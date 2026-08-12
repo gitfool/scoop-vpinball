@@ -1,14 +1,20 @@
+name: pull-request
 on:
-  pull_request_target:
-    types: [opened]
-name: Pull Requests
+  pull_request:
+    types: [ opened ]
+
+permissions:
+  contents: read
+  pull-requests: write
+
 jobs:
-  pullRequestHandler:
-    name: PullRequestHandler
+  handler:
     runs-on: windows-latest
     steps:
-      - uses: actions/checkout@main
-      - name: PullRequestHandler
+      - name: Checkout source
+        uses: actions/checkout@main
+
+      - name: Run handler
         uses: ScoopInstaller/GithubActions@main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
