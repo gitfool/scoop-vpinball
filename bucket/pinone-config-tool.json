@@ -1,12 +1,12 @@
 {
-    "version": "2.1.2",
+    "version": "2.2.2",
     "description": "Configuration tool for the Arduino PinOne controller",
     "homepage": "https://github.com/philipellisis/arduino-virtual-pinball-board",
     "license": "",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/philipellisis/arduino-virtual-pinball-board/releases/download/v2.1.2/pinone-config-tool.2.1.2.exe#/pinone-config-tool.exe",
-            "hash": "d9d1d00411998e27199dbb14ca35648f64955d3bf2f367a34bce51c68285e31a"
+            "url": "https://github.com/philipellisis/arduino-virtual-pinball-board/releases/download/v2.2.2/pinone-config-tool.2.2.2.exe#/pinone-config-tool.exe",
+            "hash": "511f40ec177197090bf5db8090f0976a0f198e99e25a915df1dd27614261a773"
         }
     },
     "bin": "pinone-config-tool.exe",
