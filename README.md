@@ -29,6 +29,7 @@ scoop bucket add vpinball https://github.com/gitfool/scoop-vpinball
 | [vpinfe](https://github.com/superhac/vpinfe) | A vpinball frontend for Linux, Mac, and Windows | `scoop install vpinfe` | [![Version](https://img.shields.io/scoop/v/vpinfe?bucket=https%3A%2F%2Fgithub.com%2Fgitfool%2Fscoop-vpinball&label=&logo=scoop)](bucket/vpinfe.json) |
 | [vpinfe-slim](https://github.com/superhac/vpinfe) | A vpinball frontend for Linux, Mac, and Windows (slim<sup>4</sup>) | `scoop install vpinfe-slim` | [![Version](https://img.shields.io/scoop/v/vpinfe-slim?bucket=https%3A%2F%2Fgithub.com%2Fgitfool%2Fscoop-vpinball&label=&logo=scoop)](bucket/vpinfe-slim.json) |
 | [vpxtool](https://github.com/francisdb/vpxtool) | Terminal based frontend and utilities for Visual Pinball | `scoop install vpxtool` | [![Version](https://img.shields.io/scoop/v/vpxtool?bucket=https%3A%2F%2Fgithub.com%2Fgitfool%2Fscoop-vpinball&label=&logo=scoop)](bucket/vpxtool.json) |
+| [vpx-editor](https://github.com/jsm174/vpx-editor) | Cross-platform Visual Pinball table editor using Electron and vpin | `scoop install vpx-editor` | [![Version](https://img.shields.io/scoop/v/vpx-editor?bucket=https%3A%2F%2Fgithub.com%2Fgitfool%2Fscoop-vpinball&label=&logo=scoop)](bucket/vpx-editor.json) |
 
 <sup>1</sup> [BGFX](https://github.com/dekay/vpinball-wiki/wiki/About-Visual-Pinball#bgfx) x64 release only
 
