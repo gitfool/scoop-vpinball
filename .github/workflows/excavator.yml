@@ -20,3 +20,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SKIP_UPDATED: 1
+          # Workaround: run against a fork of scoop carrying the fix for
+          # ScoopInstaller/Scoop#6717, which otherwise lets 'checkver -Update'
+          # commit version regressions when upstream reports a stale version.
+          SCOOP_REPO: https://github.com/gitfool/Scoop
+          SCOOP_BRANCH: checkver-no-downgrade
