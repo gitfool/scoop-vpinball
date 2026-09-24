@@ -1,12 +1,12 @@
 {
-    "version": "10.8.1-5810-f9e811520",
+    "version": "10.8.1-5811-ef97a6ac7",
     "description": "Visual Pinball BGFX (nightly)",
     "homepage": "https://github.com/vpinball/vpinball",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://nightly.link/vpinball/vpinball/workflows/vpinball/master/VPinballX_BGFX-10.8.1-5810-f9e811520-windows-x64-Release.zip#/VPinballX_BGFX.zip",
-            "hash": "cc654ca159eb05e24a9f4676677414a46048cc04318a06f1d3eda66ca699d4e0"
+            "url": "https://nightly.link/vpinball/vpinball/workflows/vpinball/master/VPinballX_BGFX-10.8.1-5811-ef97a6ac7-windows-x64-Release.zip#/VPinballX_BGFX.zip",
+            "hash": "f51394d0277fb6ae3300edabc0c128318fc9a3d1760aecc1d891d48fc4b13688"
         }
     },
     "bin": "VPinballX_BGFX64.exe",
